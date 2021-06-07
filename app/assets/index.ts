@@ -28,6 +28,8 @@ export const IMAGES = {
   HOME_INACTIVE: require('./images/home-inactive.png'),
   SETTINGS_ACTIVE: require('./images/settings-active.png'),
   SETTINGS_INACTIVE: require('./images/settings-inactive.png'),
+  INFO_ACTIVE: require('./images/info-active.png'),
+  INFO_INCTIVE: require('./images/info-inactive.png'),
   PLUS_ICON: require('./images/plus.png'),
 
   // Socials

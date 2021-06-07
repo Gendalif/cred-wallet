@@ -12,10 +12,11 @@ export const WITHOUT_HEADER_OPTIONS = {
   headerShown: false,
 };
 
-export const TRANSPARENT_MODAL_WITH_FADE_ANIM_OPTIONS: NativeStackNavigationOptions = {
-  stackAnimation: 'fade',
-  stackPresentation: 'transparentModal',
-};
+export const TRANSPARENT_MODAL_WITH_FADE_ANIM_OPTIONS: NativeStackNavigationOptions =
+  {
+    stackAnimation: 'fade',
+    stackPresentation: 'transparentModal',
+  };
 
 export const TRANSPARENT_MODAL_OPTIONS: NativeStackNavigationOptions = {
   stackPresentation: 'transparentModal',
@@ -65,7 +66,7 @@ export const tabOptions: TabNavigatorOptions = {
         ]}
       >
         <Image
-          source={focused ? IMAGES.SETTINGS_ACTIVE : IMAGES.SETTINGS_INACTIVE}
+          source={focused ? IMAGES.INFO_ACTIVE : IMAGES.INFO_INCTIVE}
           style={styles.tabBarIcon}
         />
       </View>

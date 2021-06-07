@@ -6,6 +6,7 @@ import { FONTS } from '../../utils/fonts';
 interface IAboutScreenStyles {
   container: ViewStyle;
   textContainer: ViewStyle;
+  aboutText: TextStyle;
   introduction: TextStyle;
   link: TextStyle;
   copyrightContainer: ViewStyle;
@@ -23,6 +24,11 @@ export const styles = StyleSheet.create<IAboutScreenStyles>({
     marginHorizontal: 7,
     flex: 1,
     marginTop: 10,
+  },
+  aboutText: {
+    fontSize: 16,
+    fontFamily: FONTS.POPPINS_500,
+    color: COLORS.BUNTING,
   },
   introduction: {
     fontSize: 16,

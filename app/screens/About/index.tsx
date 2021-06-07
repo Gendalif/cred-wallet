@@ -2,6 +2,10 @@ import React from 'react';
 import { Text, View, Linking } from 'react-native';
 
 import { SettingsHeader } from '../../components';
+import {
+  name as APPLIATION_NAME,
+  version as APPLIATION_VERSION,
+} from '../../../package.json';
 import { IAboutScreenProps } from './about.props';
 import { styles } from './about.styles';
 
@@ -10,6 +14,9 @@ export const AboutScreen: React.FC<IAboutScreenProps> = () => {
     <View style={styles.container}>
       <SettingsHeader title="About for now" isBackButton />
       <View style={styles.textContainer}>
+        <Text style={styles.aboutText}>
+          {APPLIATION_NAME} {APPLIATION_VERSION}
+        </Text>
         <Text style={styles.introduction}>
           This mobile wallet was developed by the Digital Credentials
           Consortium, a network of leading international universities designing
