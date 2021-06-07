@@ -16,10 +16,13 @@ export const styles = StyleSheet.create<IAboutScreenStyles>({
   container: {
     flex: 1,
     backgroundColor: COLORS.WHITE,
+    flexDirection: 'column',
+    justifyContent: 'space-between',
   },
   textContainer: {
     marginHorizontal: 7,
-    marginTop: 12,
+    flex: 1,
+    marginTop: 10,
   },
   introduction: {
     fontSize: 16,
@@ -29,7 +32,7 @@ export const styles = StyleSheet.create<IAboutScreenStyles>({
   link: { color: COLORS.BAY_OF_MANY },
   copyrightContainer: {
     width: '100%',
-    paddingTop: 450,
+    marginBottom: 10,
   },
   copyright: {
     textAlign: 'center',
